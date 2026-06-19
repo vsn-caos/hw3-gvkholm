@@ -43,5 +43,6 @@ int main(int argc, char *argv[]) {
     }
     munmap(data, flen);
     close(fd);
+    
     return 0;
 }
