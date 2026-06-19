@@ -45,5 +45,6 @@ int main(int argc, char **argv) {
     close(fds[1]);
     waitpid(pid1, NULL, 0);
     waitpid(pid2, NULL, 0);
+    
     return 0;
 }
